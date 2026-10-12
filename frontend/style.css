@@ -1,4 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+================
+CABEÇALHO
+================
+*/
 header{
     background-color: rgb(29, 22, 22);
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+   
+}
+.titulo{
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 30px;
+}
+.botoes-home{
+    padding-right: 30px;
+
+}
+
+/*
+==================
+ABA SOBRE MIM
+==================
+*/
+
+.sobre-mim{
+    background-color: rgb(58, 57, 57);
+    display: flex;
+    width: 100%;
+    min-height: 250px; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px 50px ;
+}
+
+.tag1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 500px;
+    padding: 50px 350px 0px 0px;
+}
+
+.image-1{
+    width: 350px;
+    height: auto;
+    padding: 0px 80px;
 }
