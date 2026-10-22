@@ -45,11 +45,88 @@ ABA SOBRE MIM
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     max-width: 500px;
-    padding: 50px 350px 0px 0px;
+    padding: 50px 450px 0px 0px;
+    color:rgba(255, 255, 255, 0.863)
 }
 
 .image-1{
     width: 350px;
     height: auto;
-    padding: 0px 80px;
+    padding: 0px ;
+    margin-left: 250px;
+}
+
+/*
+================
+ABA MEU-TRABALHO
+================
+*/
+
+.meu-trabalho{
+    display: flex;
+    width: 100%;
+    min-height: 550px; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px 50px ;
+}
+
+.tag2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 500px;
+    padding: 120px 450px 0px 0px;
+}
+
+.image-2{
+    width: 350px;
+    height: 350px;
+    padding: 0px ;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+/*
+===========
+AGENDAMENTO
+===========
+*/
+
+.agendamento{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 450px; 
+    padding: 20px 50px ;
+}
+
+
+.tag3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 500px;
+    padding: 0px 150px 80px 0px;
+}
+
+/*
+=======
+RODAPÉ
+=======
+*/
+
+footer{
+    background-color: rgb(29, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+}
+
+.tag4{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(255, 255, 255, 0.863);
+    margin-bottom: 130px;
 }
